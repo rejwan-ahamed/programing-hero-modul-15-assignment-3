@@ -2,10 +2,38 @@
 .carousel-caption.d-flex.align-items-center.justify-content-center.flex-column {
     height: 100%;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-html,body{
+
+html,
+body {
     overflow-x: hidden;
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .course-thumbnail {
+        height: 100%;
+    }
+
+    .card-text {
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .course-thumbnail {
+        height: 100%;
+    }
+
+    .carousel-paragraph {
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
 }
