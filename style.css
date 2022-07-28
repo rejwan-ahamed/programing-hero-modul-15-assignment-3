@@ -2,3 +2,10 @@
 .carousel-caption.d-flex.align-items-center.justify-content-center.flex-column {
     height: 100%;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
