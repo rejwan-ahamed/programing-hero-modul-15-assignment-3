@@ -1,0 +1,4 @@
+/* for overwright bootstrap class only */
+.carousel-caption.d-flex.align-items-center.justify-content-center.flex-column {
+    height: 100%;
+}
