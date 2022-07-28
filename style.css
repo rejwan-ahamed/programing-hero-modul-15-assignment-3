@@ -13,6 +13,13 @@ body {
     overflow-x: hidden;
 }
 
+h5.card-title {
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
 @media (min-width: 1000px) and (max-width: 1400px) {
     .course-thumbnail {
         height: 100%;
@@ -25,6 +32,7 @@ body {
         -webkit-box-orient: vertical;
     }
 }
+
 @media (min-width: 600px) and (max-width: 900px) {
     .course-thumbnail {
         height: 100%;
@@ -35,5 +43,62 @@ body {
         -webkit-line-clamp: 2;
         display: -webkit-box;
         -webkit-box-orient: vertical;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 599px) {
+    .custom-img-1 {
+        background-image: url(./images/cover/course-m1.png) !important;
+        width: 100%;
+        height: inherit;
+    }
+
+    .custom-img-ref-1 {
+        opacity: 0;
+    }
+
+    .custom-img-2 {
+        background-image: url(./images/cover/course-m2.png) !important;
+        width: 100%;
+        height: inherit;
+    }
+
+    .custom-img-ref-2 {
+        opacity: 0;
+    }
+
+    .custom-img-3 {
+        background-image: url(./images/cover/course-m3.png) !important;
+        width: 100%;
+        height: inherit;
+    }
+
+    .custom-img-ref-3 {
+        opacity: 0;
+    }
+
+    .custom-img-4 {
+        background-image: url(./images/cover/course-m4.png) !important;
+        width: 100%;
+        height: inherit;
+    }
+
+    .custom-img-ref-4 {
+        opacity: 0;
+    }
+
+    p.w-50.carousel-paragraph {
+        width: 100% !important;
+        font-size: 15px;
+        font-weight: 15px;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 20rem;
     }
 }
