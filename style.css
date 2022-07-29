@@ -51,6 +51,7 @@ h5.card-title {
         background-image: url(./images/cover/course-m1.png) !important;
         width: 100%;
         height: inherit;
+        background-size: cover;
     }
 
     .custom-img-ref-1 {
@@ -61,6 +62,7 @@ h5.card-title {
         background-image: url(./images/cover/course-m2.png) !important;
         width: 100%;
         height: inherit;
+        background-size: cover;
     }
 
     .custom-img-ref-2 {
@@ -71,6 +73,7 @@ h5.card-title {
         background-image: url(./images/cover/course-m3.png) !important;
         width: 100%;
         height: inherit;
+        background-size: cover;
     }
 
     .custom-img-ref-3 {
@@ -81,6 +84,7 @@ h5.card-title {
         background-image: url(./images/cover/course-m4.png) !important;
         width: 100%;
         height: inherit;
+        background-size: cover;
     }
 
     .custom-img-ref-4 {
